@@ -143,9 +143,22 @@
     header {
       margin-block: 81px;
     }
+    .tema{
+        gap: 16px;
+    }
 
     .tema img{
-        
+        width: 24px;
+    }
+    .tema button{
+        width: 48px;
+        height: 28px;
+    }
+    .tema button div{
+        background: var(--white);
+        width: 12px;
+        height: 12px;
+        border-radius: 999px;
     }
     
     main {
