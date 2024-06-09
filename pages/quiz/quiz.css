@@ -166,7 +166,7 @@
   }
 }
 
-.alternativas label#certa {
+.alternativas label#correta {
   outline: 3px solid var(--green);
 
   & span {
