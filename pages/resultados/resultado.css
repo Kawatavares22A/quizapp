@@ -170,7 +170,6 @@ main button {
     background: var(--purple);
     color: var(--white);
     width: 100%;
-
     font-size: 18px;
     font-weight: 500;
     transition: background 0.3s;
@@ -191,10 +190,13 @@ main button:hover {
     header {
         margin-block: 81px;
         max-width: 1160px;
-        
+        margin-inline: auto;
     }
 
-    
+    .assunto_icone {
+        width: 56px;
+        height: 56px;
+        padding: 8px;
     }
 
     .assunto h1 {
@@ -246,14 +248,7 @@ main button:hover {
 
     .pontuacao p {
         font-size: 24px;
-        
     }
 
-    main button {
-        font-size: 22px;
-        padding: 24px;
-        border-radius: 24px;
-
-    }
-
+    
 }
