@@ -7,7 +7,6 @@
   
   :root {
     --bg-color: #f4f6fa;
-   
     --purple: #a729f5;
     --primary-text-color: #313e51;
     --secondary-text-color: #626c7f;
@@ -43,6 +42,8 @@
     padding: 16px 24px;
     display: flex;
     justify-content: flex-end;
+    max-width: 1160px;
+    margin-inline: auto;
   }
   
   .tema { 
