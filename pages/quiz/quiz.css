@@ -8,6 +8,7 @@
   :root {
     --bg-color: #f4f6fa;
     --purple: #a729f5;
+    --purple-hover: rgba(167, 41, 245, 0.7);
     --primary-text-color: #313e51;
     --secondary-text-color: #626c7f;
     --button-bg: #fff;
@@ -215,6 +216,7 @@
   background: var(--purple);
   color: var(--white);
   width: 100%;
+
   font-size: 18px;
   font-weight: 500;
   transition: background 0.3s;
@@ -269,7 +271,7 @@
   main {
       max-width: 1160px;
       margin-inline: auto;
-      
+
       display: flex;
       gap: 130px;
   }
