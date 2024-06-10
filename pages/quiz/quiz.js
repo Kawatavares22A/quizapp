@@ -103,6 +103,13 @@ function alterarSinais(texto) {
     return texto.replace(/</g, "&lt;").replace(/>/g, "&gt;")
 }
 
+function guardarResposta(evento) {
+    resposta = evento.target.value
+    idInputResposta = evento.target.id
+
+
+
+       
 
 
 async function iniciar() {
@@ -112,4 +119,9 @@ async function iniciar() {
     adicionarEventoInputs()
 }
 
+function adicionarEventoInputs() {
+    const inputsResposta = document.querySelectorAll(".alternativas input")
+    inputsResposta.forEach(input => {
+        input.addEventListener("click", guardarResposta)
+        
 iniciar()
