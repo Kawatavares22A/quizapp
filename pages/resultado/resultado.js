@@ -5,6 +5,7 @@ const body = document.querySelector("body")
 const assunto = localStorage.getItem("assunto")
 const botaoJogarNovamente = document.querySelector("main button")
 
+
 botaoTema.addEventListener("click", () => {
     trocarTema(body, botaoTema)
 })
