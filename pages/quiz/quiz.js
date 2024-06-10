@@ -115,6 +115,7 @@ function validarResposta() {
     const botaoEnviar = document.querySelector(".alternativas button")
     botaoEnviar.innerText = "Próxima"
     botaoEnviar.removeEventListener("click", validarResposta)
+    botaoEnviar.addEventListener("click", proximaPergunta)
 
     if (pergunta === 10) {
         botaoEnviar.innerText = "Finalizar"
@@ -139,6 +140,7 @@ function finalizar() {
 
     window.location.href = "../resultado/resultado.html"
 }
+
 
 function proximaPergunta() {
     montarPergunta()
