@@ -15,7 +15,7 @@
                     "answer": "Hyper Text Markup Language"
                 },
                 {
-                    "question": "   ",
+                    "question": "Qual das alternativas abaixo mostra a estrutura correta de um documento HTML?",
                     "options": [
                         "<html><head></head><body></body></html>",
                         "<head><html></html><body></body></head>",
